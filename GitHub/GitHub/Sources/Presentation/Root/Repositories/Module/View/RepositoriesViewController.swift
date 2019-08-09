@@ -42,9 +42,6 @@ class RepositoriesViewController: BaseViewController {
         self.setupZeroView()
         
         self.output.viewDidLoad()
-        
-        self.view.backgroundColor = .white
-        self.title = "Repositories"
     }
     
     private func setupTableView() {
